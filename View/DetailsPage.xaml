@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstMauiApp.View.DetailsPage"
+             xmlns:viewmodel="clr-namespace:FirstMauiApp.ViewModel"
+             x:DataType="viewmodel:PlantsDetailsViewModel"
+             Title="{Binding Plant.Name}">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,Auto,*">
+            <BoxView BackgroundColor="{StaticResource Primary}"
+                     Grid.RowSpan="2"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"/>
+
+            <Border StrokeShape="RoundRectangle 80"
+                    Stroke="White"
+                    StrokeThickness="6"
+                    HeightRequest="160"
+                    WidthRequest="160"
+                    Margin="0,8,0,0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Aspect="AspectFill"
+                        HeightRequest="160"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Source="{Binding Plant.Picture}"
+                        WidthRequest="160"/>
+            </Border>
+
+            <Label Style="{StaticResource LargeLabel}" 
+                   Grid.Row="1"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   Text="{Binding Plant.Name}" 
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,8"/>
+
+            <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
+
+                <Button Style="{StaticResource ButtonOutline}"
+                    Command="{Binding OpenMapCommand}"
+                    Text="Show on Map"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    Margin="8"/>
+
+                <Label Text="{Binding Plant.Narrative}"
+                       Style="{StaticResource MediumLabel}"/>
+                <Label Text="{Binding Plant.Location, StringFormat='Location: {0}'}"
+                       Style="{StaticResource SmallLabel}"/>
+                <Label Text="{Binding Plant.Authority, StringFormat='Authority: {0}'}"
+                       Style="{StaticResource SmallLabel}"/>
+                <Label Text="{Binding Plant.Family, StringFormat='Family: {0}'}"
+                       Style="{StaticResource SmallLabel}"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

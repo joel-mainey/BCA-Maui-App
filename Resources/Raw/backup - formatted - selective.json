@@ -1,0 +1,93 @@
+[
+  {
+    "StructuralClass": "Trees & Shrubs - Gymnosperms",
+    "Authority": "Agathis Australis",
+    "Conservation": "2018 - Threatened - Nationally Vulnerable",
+    "Family": "Araucariaceae",
+    "NVS": "AGAAUS",
+    "Latitude": "-37.737244",
+    "Longitude": "176.233588",
+    "Name": "Kauri",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Agathis%20australis%20(BOP).JPG?raw=true",
+    "Narrative": "The kauri on this hillside were planted in 2003. As with the kahikatea in the wetland, these kauri were planted amongst a nurse crop, only this time kanuka was used as opposed to manuka. As you can see, they have grown so much in such a short space of time. Kauri need light to grow, and in the early years grow quickly in order for the crowns to reach above the canopy. The kanuka is slowly dying off leaving a canopy of kauri in its place. These trees are part of a research project and are monitored and measured periodically to better understand growth habits of planted kauri. It is a misconception that native trees grow slowly. In fact if the right tree is planted in the right place, growth can be rapid, as is demonstrated here with the kauri. Elsewhere in here you can see titoki, whau and rimu"
+  },
+  {
+    "StructuralClass": "Ferns",
+    "Authority": "Ptisana Salicina",
+    "Conservation": "2012 - At Risk - Declining",
+    "Family": "Marattiaceae",
+    "NVS": "PSISAL",
+    "Latitude": "-37.736983",
+    "Longitude": "176.234083",
+    "Narrative": "This fern is rather special in that it is the worlds largest ground growing fern (we also have the worlds largest tree fern!!). Favouring deep shade and stream-sides, the fronds of the para can grow to 5m long. Their starchy bases were once a food source for Māori. Due to habitat loss and introduced browsers and pigs eating the ferns, para is now considered threatened and its numbers are declining.",
+    "Name": "King Fern (Para)",
+    "Location": "Valley",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Psitana%20salicina%20(BOP).JPG?raw=true"
+  },
+  {
+    "StructuralClass": "Trees & Shrubs - Dicotyledons",
+    "Authority": "Sophora Longicarinata",
+    "Conservation": "2012 - At Risk - Naturally Uncommon",
+    "Family": "Fabaceae",
+    "NVS": "SOPLON",
+    "Latitude": "-37.736952",
+    "Longitude": "176.233459",
+    "Narrative": "The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower. They are best known for their brilliant yellow flowers that appear in profusion in Spring and stand out among the forest greenery. We love to have kōwhai in our gardens. Kōwhai imagery is popular in art works and has been used on postage stamps and coins.  Quick facts Kōwhai trees have small leaflets and juvenile branches on some species are twisted and tangled.  They grow from a seed in the ground to become a tree up to 25 m high.  It's found throughout New Zealand in a diverse range of habitats from riparian forests, coastal cliff faces to inland grey scrub communities. Native birds such as the tui, bellbird, kākā and New Zealand pigeon/kererū/kūkū/kūkupa all benefit from kōwhai trees. Tui and bellbird and New Zealand wood pigeon/kererū/kūkū/kūkupa feast on leaves and flowers – kōwhai are an important seasonal nectar food source for them. Māori hold the tree in high esteem, valuing the durability of its hard wood and its many medicinal properties.",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Sophora%20longicarinata%20(Marlborough).JPG?raw=true",
+    "Name": "Limestone Kowhai"
+  },
+  {
+    "StructuralClass": "Trees & Shrubs - Dicotyledons",
+    "Authority": "Melicytus Ramiflorus",
+    "Conservation": "2012 - Non Threatened",
+    "Family": "Violaceae",
+    "NVS": "MELRAM",
+    "Latitude": "-37.737035",
+    "Longitude": "176.233983",
+    "Narrative": "Also known as whiteywood, mahoe is one of more common forest trees. The fallen leaves are easily distinguished by the almost silk-like latticework of patterns left after the fleshy, green part of the leaves decompose. Have a look around on the ground to see if you can find any. It flowers in spring and the flowers have a very distinct and sweet smell to them. They eventually form purple berries that tui, korimako and keruru love to eat. This particular tree is quite old and gnarly, with the holes providing homes to native insects, such as weta.",
+    "Location": "Valley",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Melicytus%20ramiflorus%20(BOP).JPG?raw=true",
+    "Name": "Mahoe"
+  },
+  {
+    "StructuralClass": "Trees & Shrubs - Dicotyledons",
+    "Authority": "Alectryon Excelsus (Subspecies Excelsus)",
+    "Conservation": "2012 - Non Threatened",
+    "Family": "Sapindaceae",
+    "NVS": "ALEEXC",
+    "Latitude": "-37.737216461779774",
+    "Longitude": "176.23350698500875",
+    "Narrative": "The titoki is probably the most widely planted native tree in New Zealand. The titoki forms a round-headed tree with deep green glossy foliage. The unusual small red fruits are a food source for Kererū and other native birds. Titoki leaves and oil have been used as an insect repellent to ward off mosquito and sandflies. Early settlers perhaps dreaming of English forests often referred to titoki as the New Zealand oak. Titoki have been used extensively as street trees but make a bold evergreen shade tree in the garden. Titoki respond well to trimming and shaping and can be used as a pleached or stilt hedge or as large topiary subjects. Titoki thrive in well-drained soil. They should be staked until established and would benefit from a deep layer of mulch to keep the roots cool and moist during dry spells.",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Alectryon%20excelsus%20subsp.%20excelsus.JPG?raw=true",
+    "Name": "Titoki or NZ Ash"
+  },
+  {
+    "StructuralClass": "Trees & Shrubs - Monocotyledons",
+    "Authority": "Cordyline Australis",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Cordyline%20Australis.jpg?raw=true",
+    "Conservation": "2012 - Non threatened",
+    "Family": "Asparagaceae",
+    "NVS": "CORAUS",
+    "Latitude": "-37.736862",
+    "Longitude": "176.233462",
+    "Location": "Wetlands",
+    "Name": "Cabbage Tree (Ti Kouka - Palm Lily)",
+    "Narrative": "One of the most widely cultivated New Zealand natives, very popular in Europe, Britain and the U.S.A. Easily grown from fresh seed (seedlings often spontaneously appear in gardens from bird-dispersed seed), emergent shoot, stem and even trunk cuttings. Very hardy and will tolerate most soils and moisture regimes but dislikes long periods of drought. Excellent in pots and tubs.   Cabbage trees, because they are very resilient, are often the last indigenous plant to persist within cleared land. However, even these specimens will over time die, and unless such remnants are fenced as the young seedlings are greedily eaten by livestock. Cabbage trees remain a common and thriving species within much of the more highly modified ecosystems of coastal and lowland New Zealand."
+  },
+  {
+    "StructuralClass": "Trees & Shrubs - Gymnosperms",
+    "Narrative": "Here we have matai, one of our forest giants. It too is heteroblastic. You will see how the foliage is a tangled mess of branches, but if you look closely you can see where the foliage is changing to the adult form, which is totally different from the juvenile form.",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Prumnopitys%20taxifolia%20(CNI,%20Napier-%20Taupo%20Highway).JPG?raw=true",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Rhamnaceae",
+    "NVS": "PRUTAX",
+    "Latitude": "-37.737246",
+    "Longitude": "176.233681",
+    "Location": "Wetlands",
+    "Name": " Matai (Black Pine)",
+    "Authority": "Prumnopitys Taxifolia"
+  }
+]

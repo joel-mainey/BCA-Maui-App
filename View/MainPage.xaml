@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:FirstMauiApp.Model"
+             xmlns:viewmodel="clr-namespace:FirstMauiApp.ViewModel"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             x:DataType="viewmodel:PlantsViewModel"
+             Title="{Binding Title}"
+             ios:Page.UseSafeArea="True"
+             x:Class="FirstMauiApp.MainPage">
+
+    <!--Hard coded page example
+     <CollectionView>
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type model:Plant}">
+                <model:Plant 
+                    Name="Kauri"
+                    Picture="https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Agathis%20australis%20(BOP).JPG?raw=true"
+                    Narrative="The kauri on this hillside were planted in 2003. As with the kahikatea in the wetland, these kauri were planted amongst a nurse crop, only this time kanuka was used as opposed to manuka. As you can see, they have grown so much in such a short space of time. Kauri need light to grow, and in the early years grow quickly in order for the crowns to reach above the canopy. The kanuka is slowly dying off leaving a canopy of kauri in its place. These trees are part of a research project and are monitored and measured periodically to better understand growth habits of planted kauri. It is a misconception that native trees grow slowly. In fact if the right tree is planted in the right place, growth can be rapid, as is demonstrated here with the kauri. Elsewhere in here you can see titoki, whau and rimu"
+                    Authority="Authority: Agathis Australis"
+                    Family="Family: Araucariaceae" />
+                <model:Plant 
+                    Name="Limestone Kowhai"
+                    Picture="https://raw.githubusercontent.com/joel-mainey/bca-firebase/main/public/images/Sophora%20longicarinata%20(Marlborough).JPG"
+                    Narrative="The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower. They are best known for their brilliant yellow flowers that appear in profusion in Spring and stand out among the forest greenery. We love to have kōwhai in our gardens. Kōwhai imagery is popular in art works and has been used on postage stamps and coins. Quick facts Kōwhai trees have small leaflets and juvenile branches on some species are twisted and tangled. They grow from a seed in the ground to become a tree up to 25 m high. It's found throughout New Zealand in a diverse range of habitats from riparian forests, coastal cliff faces to inland grey scrub communities. Native birds such as the tui, bellbird, kākā and New Zealand pigeon/kererū/kūkū/kūkupa all benefit from kōwhai trees. Tui and bellbird and New Zealand wood pigeon/kererū/kūkū/kūkupa feast on leaves and flowers – kōwhai are an important seasonal nectar food source for them. Māori hold the tree in high esteem, valuing the durability of its hard wood and its many medicinal properties."
+                    Authority="Authority: Sophora Longicarinata"
+                    Family="Family: Fabaceae" />
+                <model:Plant 
+                    Name="Titoki or NZ Ash"
+                    Picture="https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Alectryon%20excelsus%20subsp.%20excelsus.JPG?raw=true"
+                    Narrative="The titoki is probably the most widely planted native tree in New Zealand. The titoki forms a round-headed tree with deep green glossy foliage. The unusual small red fruits are a food source for Kererū and other native birds. Titoki leaves and oil have been used as an insect repellent to ward off mosquito and sandflies. Early settlers perhaps dreaming of English forests often referred to titoki as the New Zealand oak. Titoki have been used extensively as street trees but make a bold evergreen shade tree in the garden. Titoki respond well to trimming and shaping and can be used as a pleached or stilt hedge or as large topiary subjects. Titoki thrive in well-drained soil. They should be staked until established and would benefit from a deep layer of mulch to keep the roots cool and moist during dry spells."
+                    Authority="Authority: Alectryon Excelsus"
+                    Family="Family: Sapindaceae" />
+            </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="model:Plant">
+                <HorizontalStackLayout Padding="10">
+                    <Image Source="{Binding Picture}"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           Aspect="AspectFill"/>
+                    <VerticalStackLayout Padding="10" Spacing="4" VerticalOptions="Center">
+                        <Label Text="{Binding Name}" FontSize="24"/>
+                        <Label Text="{Binding Authority}" FontSize="12"/>
+                        <Label Text="{Binding Family}" FontSize="12"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+            
+    </CollectionView> -->
+
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          RowDefinitions="*,Auto"
+          RowSpacing="0">
+
+
+        <RefreshView Grid.ColumnSpan="2"
+                     Command="{Binding GetPlantsCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView BackgroundColor="Transparent"
+                            ItemsSource="{Binding Plants}"
+                            SelectionMode="None">
+                <CollectionView.EmptyView>
+                    <StackLayout VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 WidthRequest="200"
+                                 HeightRequest="200">
+                        <Image Source="nodata.png"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               Aspect="AspectFill"/>
+
+                    </StackLayout>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Plant">
+                        <Grid Padding="10">
+                            <Frame HeightRequest="125"
+                                   Padding="0"
+                                   Style="{StaticResource CardView}">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlantsViewModel}}, Path=GoToDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
+                                <Grid Padding="0"
+                                      ColumnDefinitions="125, *">
+                                
+                                    <Image Aspect="AspectFill"
+                                       Source="{Binding Picture}"
+                                       WidthRequest="125"
+                                       HeightRequest="125"/>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10"
+                                                         VerticalOptions="Center">
+                                        <Label Text="{Binding Name}"
+                                               Style="{StaticResource LargeLabel}"/>
+                                        <Label Text="{Binding Location}"
+                                               Style="{StaticResource BaseLabel}"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            
+            </CollectionView>
+        </RefreshView>
+
+        <Button Text="GET PLANTS"
+                Style="{StaticResource ButtonOutline}"
+                Command="{Binding GetPlantsCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Margin="8"/>
+
+        <Button Text="FIND CLOSEST"
+                Style="{StaticResource ButtonOutline}"
+                Command="{Binding GetClosestPlantCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="8"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+
+    </Grid>
+</ContentPage>
