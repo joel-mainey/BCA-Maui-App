@@ -50,7 +50,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\nodata.png" />
-	  <None Remove="Resources\Raw\backup - formatted - selective.json" />
+	  <None Remove="Resources\Raw\plantdata.json" />
 	</ItemGroup>
 
 	<ItemGroup>
