@@ -21,6 +21,13 @@
             <CollectionView BackgroundColor="Transparent"
                             ItemsSource="{Binding Plants}"
                             SelectionMode="None">
+
+                <CollectionView.Footer>
+                    <VerticalStackLayout BackgroundColor="LightSkyBlue" Padding="5">
+                        <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" />
+                    </VerticalStackLayout>
+                </CollectionView.Footer>
+
                 <CollectionView.EmptyView>
                     <StackLayout VerticalOptions="Center"
                                  HorizontalOptions="Center"
