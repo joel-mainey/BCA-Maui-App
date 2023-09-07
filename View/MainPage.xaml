@@ -23,7 +23,7 @@
                             SelectionMode="None">
 
                 <CollectionView.Footer>
-                    <VerticalStackLayout BackgroundColor="LightSkyBlue" Padding="5">
+                    <VerticalStackLayout BackgroundColor="{StaticResource Primary}" Padding="5">
                         <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" />
                     </VerticalStackLayout>
                 </CollectionView.Footer>
