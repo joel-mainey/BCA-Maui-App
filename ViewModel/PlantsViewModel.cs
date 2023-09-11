@@ -6,15 +6,15 @@ namespace FirstMauiApp.ViewModel;
 
 public partial class PlantsViewModel : BaseViewModel
 {
-    PlantService plantService;
     public ObservableCollection<Plant> Plants { get; } = new();
 
+    PlantService plantService;
     IConnectivity connectivity;
     IGeolocation geolocation;
 
     public PlantsViewModel(PlantService plantService, IConnectivity connectivity, IGeolocation geolocation) 
     {
-        Title = "Plant Finder";
+        Title = "Tiwaiwaka Plant Finder";
         this.plantService = plantService;
         this.connectivity = connectivity;
         this.geolocation = geolocation;
@@ -84,6 +84,13 @@ public partial class PlantsViewModel : BaseViewModel
 
         try
         {
+            //if (connectivity.NetworkAccess != NetworkAccess.Internet)
+            //{
+            //    await Shell.Current.DisplayAlert("No connectivity!",
+            //        $"Please check internet and try again.", "OK");
+            //    return;
+            //}
+
             IsBusy = true;
             var plants = await plantService.GetPlants();
 

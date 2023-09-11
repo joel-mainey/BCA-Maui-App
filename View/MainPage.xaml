@@ -24,7 +24,7 @@
 
                 <CollectionView.Footer>
                     <VerticalStackLayout BackgroundColor="{StaticResource Primary}" Padding="5">
-                        <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" />
+                        <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" />
                     </VerticalStackLayout>
                 </CollectionView.Footer>
 
@@ -33,7 +33,7 @@
                                  HorizontalOptions="Center"
                                  WidthRequest="200"
                                  HeightRequest="200">
-                        <Image Source="nodata.png"
+                        <Image Source="logo.png"
                                HorizontalOptions="CenterAndExpand"
                                VerticalOptions="CenterAndExpand"
                                Aspect="AspectFill"/>
