@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\nodata.png" />
 	  <None Remove="Resources\Raw\plantdata.json" />
 	</ItemGroup>

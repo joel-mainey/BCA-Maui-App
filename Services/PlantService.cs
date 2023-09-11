@@ -1,6 +1,4 @@
 ﻿using System.Net.Http.Json;
-using System.Text.Json.Serialization;
-using System.Threading;
 
 namespace FirstMauiApp.Services;
 
@@ -12,24 +10,29 @@ public class PlantService
         httpClient = new HttpClient();
     }
 
-    List<Plant> plantList = new();
+    private bool IsInternetConnected()
+    {
+        var currentNetworkStatus = Connectivity.NetworkAccess;
+        return currentNetworkStatus == NetworkAccess.Internet;
+    }
 
-    object lockObject = new();
+    List<Plant> plantList = new();
 
     public async Task<List<Plant>> GetPlants()
     {
-        //if (plantList.Count > 0)
-        //    return plantList;
+        if (plantList?.Count > 0)
+            return plantList;
 
-        // Online
-        //var url = "https://raw.githubusercontent.com/joel-mainey/PlantDataJSON/main/backup%20-%20formatted%20-%20selective.json";
-
-        //var response = await httpClient.GetAsync(url);
-
-        //if (response.IsSuccessStatusCode)
-        //{
-        //    var onlinePlants = await response.Content.ReadFromJsonAsync<List<Plant>>();
-        //}
+        if (IsInternetConnected())
+        {
+            // Online
+            var response = await httpClient.GetAsync("https://raw.githubusercontent.com/joel-mainey/BCA-Maui-App/master/Resources/Raw/plantdata.json");
+            if (response.IsSuccessStatusCode)
+            {
+                plantList = await response.Content.ReadFromJsonAsync<List<Plant>>();
+                return plantList;
+            }
+        }
 
         // Offline
         using var stream = await FileSystem.OpenAppPackageFileAsync("plantdata.json");
