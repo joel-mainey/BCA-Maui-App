@@ -9,15 +9,15 @@ public partial class PlantsViewModel : BaseViewModel
     public ObservableCollection<Plant> Plants { get; } = new();
 
     PlantService plantService;
-    IConnectivity connectivity;
-    IGeolocation geolocation;
+    IConnectivity connectivityService;
+    IGeolocation geolocationService;
 
-    public PlantsViewModel(PlantService plantService, IConnectivity connectivity, IGeolocation geolocation) 
+    public PlantsViewModel(PlantService plantService, IConnectivity connectivityService, IGeolocation geolocationService) 
     {
         Title = "Tiwaiwaka Plant Finder";
         this.plantService = plantService;
-        this.connectivity = connectivity;
-        this.geolocation = geolocation;
+        this.connectivityService = connectivityService;
+        this.geolocationService = geolocationService;
     }
 
     [ObservableProperty]
@@ -31,10 +31,10 @@ public partial class PlantsViewModel : BaseViewModel
 
         try
         {
-            var location = await geolocation.GetLastKnownLocationAsync();
+            var location = await geolocationService.GetLastKnownLocationAsync();
             if (location is null)
             {
-                location = await geolocation.GetLocationAsync(
+                location = await geolocationService.GetLocationAsync(
                     new GeolocationRequest
                     {
                         DesiredAccuracy = GeolocationAccuracy.Medium,
@@ -84,7 +84,7 @@ public partial class PlantsViewModel : BaseViewModel
 
         try
         {
-            //if (connectivity.NetworkAccess != NetworkAccess.Internet)
+            //if (connectivityService.NetworkAccess != NetworkAccess.Internet)
             //{
             //    await Shell.Current.DisplayAlert("No connectivity!",
             //        $"Please check internet and try again.", "OK");
@@ -112,4 +112,18 @@ public partial class PlantsViewModel : BaseViewModel
             IsRefreshing = false;
         }
     }
+
+    //[RelayCommand]
+    //async Task GoToHomePage()
+    //{
+    //    try
+    //    {
+    //        await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        Debug.WriteLine(ex);
+    //        await Shell.Current.DisplayAlert("Error!", $"Unable to navigate to Home Page: {ex.Message}", "OK");
+    //    }
+    //}
 }

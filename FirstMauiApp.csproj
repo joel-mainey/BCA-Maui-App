@@ -49,8 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\nodata.png" />
+	  <None Remove="Resources\Images\plant.png" />
+	  <None Remove="Resources\Images\Tiwaiwaka.jpg" />
 	  <None Remove="Resources\Raw\plantdata.json" />
 	</ItemGroup>
 
@@ -58,10 +61,14 @@
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="System.Text.Json" Version="7.0.3" />
+		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="View\DetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\HomePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
