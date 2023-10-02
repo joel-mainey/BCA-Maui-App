@@ -11,35 +11,25 @@
           ColumnSpacing="5"
           RowDefinitions="*"
           RowSpacing="0">
-        
-        <Frame BackgroundColor="Black">
-            <VerticalStackLayout Spacing="10">
 
-                <Label
+        <Frame>
+            <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Spacing="10">
+                <Label 
                     Text="Welcome to the Tiwaiwaka species list."
                     
                     VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
+                    HorizontalOptions="Center"
                     Style="{StaticResource MediumLabel}"/>
                 <Image Source="tiwaiwaka.jpg"           
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="CenterAndExpand"
                        Aspect="AspectFill"/>
-                <Label 
-                    Text="Please use the Hamburger icon in the top left to navigate the plants that exist within our current biomes. The biomes are split into four sections; Nursery, Hilltop, Valley and Wetlands."
-                    VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
-                    Style="{StaticResource SmallLabel}"/>
-                <Label 
-                    Text="We bring together our gifts and abilities, mātauranga, skills and experience, and networks throughout Aotearoa, many groups and individuals, all committed to realising this vision, each in our own way, regardless of culture, religion, beliefs, history, etc. It works by sharing this vision and empowering more and more people to give it effect."
-                    VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
-                    Style="{StaticResource SmallLabel}"/>
-                <Label 
-                    Text="We share a common voice that in time will embrace the whole of Aotearoa. By following the Principles of Tīwaiwaka set out (in the book) we have a way forward that gives us hope for the future. Keeping the whenua well is always the first priority. That is what will ensure our long-term future, especially for the generations that follow us."
-                    VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
-                    Style="{StaticResource SmallLabel}"/>
+                <Label Text="Please use the Hamburger icon in the top left to navigate the plants that exist within our current biomes. The biomes are split into four sections; Nursery, Hilltop, Valley and Wetlands."
+                       Style="{StaticResource SmallLabel}"/>
+                <Label Text="We bring together our gifts and abilities, mātauranga, skills and experience, and networks throughout Aotearoa, many groups and individuals, all committed to realising this vision, each in our own way, regardless of culture, religion, beliefs, history, etc. It works by sharing this vision and empowering more and more people to give it effect."
+                       Style="{StaticResource SmallLabel}"/>
+                <Label Text="We share a common voice that in time will embrace the whole of Aotearoa. By following the Principles of Tīwaiwaka set out (in the book) we have a way forward that gives us hope for the future. Keeping the whenua well is always the first priority. That is what will ensure our long-term future, especially for the generations that follow us."
+                       Style="{StaticResource SmallLabel}"/>
             </VerticalStackLayout>
         </Frame>
 
