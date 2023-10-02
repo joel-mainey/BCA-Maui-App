@@ -11,11 +11,13 @@
           ColumnSpacing="5"
           RowDefinitions="*"
           RowSpacing="0">
-
-        <Frame>
+        
+        <Frame BackgroundColor="Black">
             <VerticalStackLayout Spacing="10">
-                <Label 
+
+                <Label
                     Text="Welcome to the Tiwaiwaka species list."
+                    
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" 
                     Style="{StaticResource MediumLabel}"/>
@@ -40,5 +42,7 @@
                     Style="{StaticResource SmallLabel}"/>
             </VerticalStackLayout>
         </Frame>
+
+        
     </Grid>
 </ContentPage>
