@@ -6,8 +6,12 @@
              x:DataType="viewmodel:HomeViewModel"
              x:Class="FirstMauiApp.View.HomePage"
              Title="Home">
-    
-    <Grid Padding="10">
+
+    <Grid ColumnDefinitions="*"
+          ColumnSpacing="5"
+          RowDefinitions="*"
+          RowSpacing="0">
+
         <Frame>
             <VerticalStackLayout Spacing="10">
                 <Label 
