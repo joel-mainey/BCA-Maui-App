@@ -30,6 +30,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+<<<<<<< HEAD
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
 	  <AndroidUseAapt2>True</AndroidUseAapt2>
 	  <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
@@ -49,6 +50,14 @@
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\bird_logo_white.png" Color="black" BaseSize="128,128" />
+=======
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+>>>>>>> origin/master
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -62,14 +71,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 	  <None Remove="Resources\AppIcon\bird_logo_white.png" />
+=======
+>>>>>>> origin/master
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\nodata.png" />
 	  <None Remove="Resources\Images\plant.png" />
 	  <None Remove="Resources\Images\Tiwaiwaka.jpg" />
 	  <None Remove="Resources\Raw\plantdata.json" />
+<<<<<<< HEAD
 	  <None Remove="Resources\Splash\bird_logo_white.png" />
+=======
+>>>>>>> origin/master
 	</ItemGroup>
 
 	<ItemGroup>
