@@ -12,7 +12,7 @@ public partial class PlantsViewModel : BaseViewModel
     IConnectivity connectivityService;
     IGeolocation geolocationService;
 
-    public PlantsViewModel(PlantService plantService, IConnectivity connectivityService, IGeolocation geolocationService) 
+    public PlantsViewModel(PlantService plantService, IConnectivity connectivityService, IGeolocation geolocationService)
     {
         Title = "Tiwaiwaka Plant Finder";
         this.plantService = plantService;
@@ -79,7 +79,7 @@ public partial class PlantsViewModel : BaseViewModel
     [RelayCommand]
     async Task GetPlantsAsync()
     {
-        if (IsBusy) 
+        if (IsBusy)
             return;
 
         try
@@ -92,13 +92,18 @@ public partial class PlantsViewModel : BaseViewModel
             //}
 
             IsBusy = true;
-            var plants = await plantService.GetPlants();
+            var plantGroups = await plantService.GetPlantsGroupedByLocation();
 
             if (Plants.Count != 0)
                 Plants.Clear();
 
-            foreach(var plant in plants)
-                Plants.Add(plant); 
+            foreach (var plantGroup in plantGroups)
+            {
+                foreach (var plant in plantGroup.Plants)
+                {
+                    Plants.Add(plant);
+                }
+            }
         }
         catch (Exception ex)
         {
@@ -112,6 +117,7 @@ public partial class PlantsViewModel : BaseViewModel
             IsRefreshing = false;
         }
     }
+
 
     //[RelayCommand]
     //async Task GoToHomePage()

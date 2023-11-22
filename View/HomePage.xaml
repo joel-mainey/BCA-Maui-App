@@ -16,7 +16,7 @@
             <Frame BackgroundColor="Black">
                 <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Spacing="10">
                     <Label 
-                    Text="Welcome to the Tiwaiwaka species list."
+                    Text="Welcome to the Tiwaiwaka plant collection."
                     TextColor="White"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center"
