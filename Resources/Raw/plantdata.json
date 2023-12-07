@@ -1,5 +1,4 @@
 [
-
   {
     "StructuralClass": "Trees & Shrubs - Gymnosperms",
     "Authority": "Agathis Australis",
@@ -13,7 +12,6 @@
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Agathis%20australis%20(BOP).JPG?raw=true",
     "Name": "Kauri"
   }, 
-
   { 
     "StructuralClass": "Trees & Shrubs - Dicotyledons", 
     "Authority": "Alectryon Excelsus (Subspecies Excelsus)", 
@@ -27,7 +25,6 @@
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Alectryon%20excelsus%20subsp.%20excelsus.JPG?raw=true", 
     "Name": "Titoki or NZ Ash" 
   }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Brachyglottis Repanda", 
@@ -41,7 +38,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Brachyglotis%20repanda%20(BOP).JPG?raw=true", 
    "Name": "Rangiora, Bushman's Friend (T.Paper)" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Carmichaelia Australis", 
@@ -55,7 +51,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Carmichaelia%20australis%20(BOP).JPG?raw=true", 
    "Name": "Common Broom" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Carpodetus Serratus", 
@@ -69,7 +64,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Carmichaelia%20australis%20(BOP).JPG?raw=true", 
    "Name": "Putaputawētā, Marble Leaf" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Coprosma Propinqua", 
@@ -83,7 +77,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Coprosma%20propinqua%20var.%20martinii%20(Chatham).JPG?raw=true", 
    "Name": "Tāpātāpā or Mingimingi" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Coprosma Robusta", 
@@ -97,7 +90,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Coprosma%20robusta%20(BOP%2C%20local).JPG?raw=true", 
    "Name": "Karamū, Glossy Karamū" 
  }, 
-
   { 
     "StructuralClass": "Trees & Shrubs - Monocotyledons", 
     "Authority": "Cordyline Australis", 
@@ -110,9 +102,7 @@
     "Location": "Wetlands", 
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Cordyline%20Australis.jpg?raw=true", 
     "Name": "Cabbage Tree (Ti Kouka - Palm Lily)" 
-
   }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Corynocarpus Laevigatus", 
@@ -125,22 +115,20 @@
    "Location": "Hilltop", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Corynocarpus%20laevigatus%20(BOP).JPG?raw=true", 
    "Name": "Karaka, Kopi" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Gymnosperms", 
-   "Authority": "Dacrycarpus Dacrydioides", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Podocarpaceae", 
-   "NVS": "DACDAC", 
-   "Latitude": -37.737155, 
-   "Longitude": 176.233733, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
-   "Picture": "", 
-   "Name": "Kahikatea" 
- }, 
-
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Gymnosperms",
+    "Authority": "Dacrycarpus Dacrydioides",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Podocarpaceae",
+    "NVS": "DACDAC",
+    "Latitude": -37.737155,
+    "Longitude": 176.233733,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Wetland",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Kahikatea"
+  }, 
 { 
    "StructuralClass": "Trees&Shrubs-Gymnosperms", 
    "Authority": "Dacrydium Cupressinum", 
@@ -153,22 +141,20 @@
    "Location": "Valley", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Dacrydium%20cupressinum%20(BOP).JPG?raw=true", 
    "Name": "Rīmu, Red Pine" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Dicotyledons", 
-   "Authority": "Didymocheton Spectabilis", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Meliaceae", 
-   "NVS": "DYSSPE", 
-   "Latitude": 0.0, 
-   "Longitude": 0.0, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Valley", 
-   "Picture": "", 
-   "Name": "Kohekohe, NZ Mahogany" 
- }, 
-
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Dicotyledons",
+    "Authority": "Didymocheton Spectabilis",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Meliaceae",
+    "NVS": "DYSSPE",
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Valley",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Kohekohe, NZ Mahogany"
+  }, 
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Elaeocarpus Dentatus var. Dentatus", 
@@ -181,22 +167,20 @@
    "Location": "Hilltop", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Elaeocarpus%20dentatus%20var.%20dentatus%20(BOP).JPG?raw=true", 
    "Name": "Hīnau" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Dicotyledons", 
-   "Authority": "Entelea Arborescens", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Malvaceae", 
-   "NVS": "ENTARB", 
-   "Latitude": -37.737037, 
-   "Longitude": 176.233997, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Hilltop", 
-   "Picture": "", 
-   "Name": "Whau" 
- }, 
-
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Dicotyledons",
+    "Authority": "Entelea Arborescens",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Malvaceae",
+    "NVS": "ENTARB",
+    "Latitude": -37.737037,
+    "Longitude": 176.233997,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Whau"
+  }, 
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Fuchsia Excorticata", 
@@ -209,36 +193,33 @@
    "Location": "Valley", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Fuchsia%20excorticata%20(BOP).JPG?raw=true", 
    "Name": "Kōtukutuku, Tree Fuchsia" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Gymnosperms", 
-   "Authority": "Halocarpus Bidwillii", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Podocarpaceae", 
-   "NVS": "HALBID", 
-   "Latitude": 0.0, 
-   "Longitude": 0.0, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Hilltop", 
-   "Picture": "", 
-   "Name": "Bog Pine" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Gymnoperms", 
-   "Authority": "Halocarpus Kirkii", 
-   "Conservation": "2018 At Risk-relict", 
-   "Family": "Podocarpaceae", 
-   "NVS": "HALKIR", 
-   "Latitude": 0.0, 
-   "Longitude": 0.0, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Hilltop", 
-   "Picture": "", 
-   "Name": "Monoao" 
- }, 
-
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Gymnosperms",
+    "Authority": "Halocarpus Bidwillii",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Podocarpaceae",
+    "NVS": "HALBID",
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Bog Pine"
+  },
+  {
+    "StructuralClass": "Trees&Shrubs-Gymnoperms",
+    "Authority": "Halocarpus Kirkii",
+    "Conservation": "2018 At Risk-relict",
+    "Family": "Podocarpaceae",
+    "NVS": "HALKIR",
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Hilltop",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Monoao"
+  }, 
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Hedycarya Arborea", 
@@ -252,7 +233,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Hedycarya%20arborea%20(BOP).JPG?raw=true", 
    "Name": "Porokaiwhiri, Pigeonwood" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Gymnosperms", 
    "Authority": "Libocedrus Bidwillii", 
@@ -266,7 +246,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Libocedrus%20bidwillii%20(CNI%2C%20Desert%20Road).JPG?raw=true", 
    "Name": "Pāhautea, Kaikawaka, NZ Cedar" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Litsea Calicaris", 
@@ -280,7 +259,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Litsea%20calicaris%20(BOP).JPG", 
    "Name": "Mangeao, Tangeao" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Gymnoperms", 
    "Authority": "Manoao Colensoi", 
@@ -294,7 +272,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Manoao%20colensoi%20(SI%2C%20West%20Coast).JPG?raw=true", 
    "Name": "Silver Pine, Manoao" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Melicope Ternata", 
@@ -308,7 +285,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Melicope%20ternata.JPG?raw=true", 
    "Name": "Wharangi" 
  }, 
-
   { 
     "StructuralClass": "Trees & Shrubs - Dicotyledons", 
     "Authority": "Melicytus Ramiflorus", 
@@ -322,7 +298,6 @@
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Melicytus%20ramiflorus%20(BOP).JPG?raw=true", 
     "Name": "Mahoe" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Metrosideros Bartlettii", 
@@ -336,7 +311,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Metrosideros%20bartlettii%20(Northland).JPG?raw=true", 
    "Name": "Rātā Moehau, Bartlett's Rātā" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Nestegis Cunninghamii", 
@@ -350,7 +324,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Nestegis%20cuninghamii%20(CNI).JPG?raw=true", 
    "Name": "Black Maire" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Olearia Pachyphylla", 
@@ -363,22 +336,20 @@
    "Location": "Nursery", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Olearia%20pachyphylla%20(BOP%2C%20Opape).JPG?raw=true", 
    "Name": "Thick-Leaved Tree Daisy" 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Gymnosperms", 
-   "Authority": "Pectinopitys Ferruginea", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Podocarpaceae", 
-   "NVS": "PRUFER", 
-   "Latitude": -37.737278, 
-   "Longitude": 176.233742, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Valley", 
-   "Picture": "", 
-   "Name": "Miro, Brown Pine" 
- }, 
-
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Gymnosperms",
+    "Authority": "Pectinopitys Ferruginea",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Podocarpaceae",
+    "NVS": "PRUFER",
+    "Latitude": -37.737278,
+    "Longitude": 176.233742,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Valley",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Miro, Brown Pine"
+  }, 
 { 
    "StructuralClass": "Trees&Shrubs-Gymnosperms", 
    "Authority": "Phyllocladus Trichomanoides", 
@@ -392,7 +363,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Phylloladus%20trichmanoides%20(BOP).JPG?raw=true", 
    "Name": "Tanēkaha, Celery Pine" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Pittosporum Cornifolium (Female)", 
@@ -406,7 +376,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pittosporum%20cornifolium%20female%20(BOP).JPG?raw=true", 
    "Name": "Tāwhiro Karo" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Gymnosperms", 
    "Authority": "Podocarpus Totara var. Totara", 
@@ -420,7 +389,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Podocarpus%20totara%20(BOP).JPG?raw=true", 
    "Name": "Tōtara" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Pomaderris Kumeraho", 
@@ -434,7 +402,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pomaderris%20kumeraho%20(BOP%2C%20Athenree%20Gorge).JPG?raw=true", 
    "Name": "Kumarahou, Gum-Diggers Soap, Golden Tainui" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Pomaderris Tainui-Hector; Pomaderris Apetala (Subspecies – Maritima)", 
@@ -448,7 +415,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pomaderris%20Tainui-Hector%20(Waikato%2C%20Kawhia).JPG?raw=true", 
    "Name": "Tainui, NZ Hazel" 
  }, 
-
   { 
     "StructuralClass": "Trees & Shrubs - Gymnosperms", 
     "Authority": "Prumnopitys Taxifolia", 
@@ -462,7 +428,6 @@
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Prumnopitys%20taxifolia%20(CNI,%20Napier-%20Taupo%20Highway).JPG?raw=true", 
     "Name": " Matai (Black Pine)" 
   }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Pseudopanax Laetus", 
@@ -474,23 +439,21 @@
    "Narrative": "Plant description coming soon!", 
    "Location": "Nursery", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pseudopanax%20laetus%20(BOP).JPG?raw=true", 
-   "Name": " Pseudopanax Laetus " 
- }, 
-
-{ 
-   "StructuralClass": "Trees&Shrubs-Dicotyledons", 
-   "Authority": "Pseudowintera Colorata", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Winteraceae", 
-   "NVS": "PSECOL", 
-   "Latitude": 0.0, 
-   "Longitude": 0.0, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Nursery", 
-   "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pseudopanax%20laetus%20(BOP).JPG?raw=true", 
-   "Name": "Red Horopito, Mountain Horopito, Alpine Pepper Tree" 
- }, 
-
+   "Name": "Pseudopanax Laetus " 
+ },
+  {
+    "StructuralClass": "Trees&Shrubs-Dicotyledons",
+    "Authority": "Pseudowintera Colorata",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Winteraceae",
+    "NVS": "PSECOL",
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Nursery",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pseudowintera%20colorata%20(CNI).JPGraw=true",
+    "Name": "Red Horopito, Mountain Horopito, Alpine Pepper Tree"
+  }, 
   { 
     "StructuralClass": "Ferns", 
     "Authority": "Ptisana Salicina", 
@@ -504,7 +467,6 @@
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Psitana%20salicina%20(BOP).JPG?raw=true", 
     "Name": "King Fern (Para)" 
   }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Monocotyledons", 
    "Authority": "Rhopalostylis Sapida", 
@@ -518,9 +480,7 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Rhopalostylis%20sapida%20(unknown).JPG?raw=true", 
    "Name": "Nīkau" 
  }, 
-
   { 
-
     "StructuralClass": "Trees & Shrubs - Dicotyledons", 
     "Authority": "Sophora Longicarinata", 
     "Conservation": "2012 - At Risk - Naturally Uncommon", 
@@ -532,9 +492,7 @@
     "Location": "Hilltop", 
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Sophora%20longicarinata%20(Marlborough).JPG?raw=true", 
     "Name": "Limestone Kowhai" 
-
   }, 
-
 { 
    "StructuralClass": "Ferns", 
    "Authority": "Sticherus Flabellatus", 
@@ -548,7 +506,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Sticherus%20flabellatus%20(Northland).JPG?raw=true", 
    "Name": "Sticherus Flabellatus" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Streblus Banksii", 
@@ -562,7 +519,6 @@
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Streblus%20banksii%20(Hawkes%20Bay).JPG?raw=true", 
    "Name": "Large-Leaved Milk Tree, Tūrepo" 
  }, 
-
 { 
    "StructuralClass": "Trees&Shrubs-Dicotyledons", 
    "Authority": "Vitex Lucens", 
@@ -575,20 +531,18 @@
    "Location": "Hilltop", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Vitex%20lucens%20(BOP%2C%20local).JPG?raw=true", 
    "Name": "Pūriri" 
- }, 
-
-{ 
-   "StructuralClass": "Herbs-Monocots", 
-   "Authority": "Phormium Tenax", 
-   "Conservation": "2012-Not Threatened", 
-   "Family": "Asphodelaceae", 
-   "NVS": "PHOTEN", 
-   "Latitude": 0.0, 
-   "Longitude": 0.0, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
-   "Picture": "", 
-   "Name": "Harakeke, Flax, Kōrari" 
- } 
-
+ },
+  {
+    "StructuralClass": "Herbs-Monocots",
+    "Authority": "Phormium Tenax",
+    "Conservation": "2012-Not Threatened",
+    "Family": "Asphodelaceae",
+    "NVS": "PHOTEN",
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Wetland",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Harakeke, Flax, Kōrari"
+  } 
 ] 
