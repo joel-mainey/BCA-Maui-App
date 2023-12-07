@@ -8,7 +8,7 @@
     "NVS": "AGAAUS",
     "Latitude": -37.737244,
     "Longitude": 176.233588,
-    "Narrative": "The Kauri on this hillside were planted in 2003. As with the Kahikatea in the wetland, these Kauri were planted amongst a nurse crop, only this time the Kanuka was used as opposed to Manuka. As you can see, they have grown so much in a short space of time. Kauri need light to grow, and in the early years grow quickly in order for the crowns to reach above the canopy. The Kanuka is slowly dying off, leaving a canopy of Kauri in it's place. These trees are opart of a research project and are monitored and measured periodically to better understand growth habits of planted Kauri. It is a misconception that native trees grow slowly. In fact, if the right tree is planted in the right place, growth can be rapid, as is demonstrated here with the Kauri. Elsewhere in here you can see Titoki, Whau and Rimu.",
+    "Narrative": "The Kauri on this hillside were planted in 2003. As with the Kahikatea in the Wetlands, these Kauri were planted amongst a nurse crop, only this time the Kanuka was used as opposed to Manuka. As you can see, they have grown so much in a short space of time. Kauri need light to grow, and in the early years grow quickly in order for the crowns to reach above the canopy. The Kanuka is slowly dying off, leaving a canopy of Kauri in it's place. These trees are opart of a research project and are monitored and measured periodically to better understand growth habits of planted Kauri. It is a misconception that native trees grow slowly. In fact, if the right tree is planted in the right place, growth can be rapid, as is demonstrated here with the Kauri. Elsewhere in here you can see Titoki, Whau and Rimu.",
     "Location": "Hilltop",
     "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Agathis%20australis%20(BOP).JPG?raw=true",
     "Name": "Kauri"
@@ -79,7 +79,7 @@
    "Latitude": -37.737206, 
    "Longitude": 176.23358, 
    "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
+   "Location": "Wetlands", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Coprosma%20propinqua%20var.%20martinii%20(Chatham).JPG?raw=true", 
    "Name": "Tāpātāpā or Mingimingi" 
  }, 
@@ -136,7 +136,7 @@
    "Latitude": -37.737155, 
    "Longitude": 176.233733, 
    "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
+   "Location": "Wetlands", 
    "Picture": "", 
    "Name": "Kahikatea" 
  }, 
@@ -586,7 +586,7 @@
    "Latitude": 0.0, 
    "Longitude": 0.0, 
    "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
+   "Location": "Wetlands", 
    "Picture": "", 
    "Name": "Harakeke, Flax, Kōrari" 
  } 
