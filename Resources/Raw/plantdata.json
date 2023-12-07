@@ -115,21 +115,21 @@
    "Location": "Hilltop", 
    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Corynocarpus%20laevigatus%20(BOP).JPG?raw=true", 
    "Name": "Karaka, Kopi" 
- }, 
+ },
 
-{ 
-   "StructuralClass": "Trees&Shrubs-Gymnosperms", 
-   "Authority": "Dacrycarpus Dacrydioides", 
-   "Conservation": "2012-Non Threatened", 
-   "Family": "Podocarpaceae", 
-   "NVS": "DACDAC", 
-   "Latitude": -37.737155, 
-   "Longitude": 176.233733, 
-   "Narrative": "Plant description coming soon!", 
-   "Location": "Wetland", 
-   "Picture": "", 
-   "Name": "Kahikatea" 
- }, 
+  {
+    "StructuralClass": "Trees&Shrubs-Gymnosperms",
+    "Authority": "Dacrycarpus Dacrydioides",
+    "Conservation": "2012-Non Threatened",
+    "Family": "Podocarpaceae",
+    "NVS": "DACDAC",
+    "Latitude": -37.737155,
+    "Longitude": 176.233733,
+    "Narrative": "Plant description coming soon!",
+    "Location": "Wetland",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Name": "Kahikatea"
+  }, 
 
 { 
    "StructuralClass": "Trees&Shrubs-Gymnosperms", 
@@ -258,7 +258,7 @@
    "Longitude": 176.233448, 
    "Narrative": "Plant description coming soon!", 
    "Location": "Hilltop", 
-   "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Litsea%20calicaris%20(BOP).JPG", 
+   "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Litsea%20calicaris%20(BOP).JPG?raw=true", 
    "Name": "Mangeao, Tangeao" 
  }, 
 { 
@@ -453,7 +453,7 @@
     "Longitude": 0.0,
     "Narrative": "Plant description coming soon!",
     "Location": "Nursery",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pseudowintera%20colorata%20(CNI).JPGraw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pseudowintera%20colorata%20(CNI).JPG?raw=true",
     "Name": "Red Horopito, Mountain Horopito, Alpine Pepper Tree"
   }, 
   { 
