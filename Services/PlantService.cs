@@ -28,7 +28,7 @@ namespace FirstMauiApp.Services
             if (IsInternetConnected())
             {
                 // Online
-                var response = await httpClient.GetAsync("https://raw.githubusercontent.com/joel-mainey/BCA-Maui-App/master/Resources/Raw/plantdata.json");
+                var response = await httpClient.GetAsync("https://github.com/joel-mainey/BCA-Maui-App/blob/Rollback/Resources/Raw/plantdata.json");
                 if (response.IsSuccessStatusCode)
                 {
                     plantList = await response.Content.ReadFromJsonAsync<List<Plant>>();
