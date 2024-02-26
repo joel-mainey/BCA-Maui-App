@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:FirstMauiApp.Model"
+             xmlns:viewmodel="clr-namespace:FirstMauiApp.ViewModel"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             x:DataType="viewmodel:PlantsViewModel"
+             Title="{Binding Title}"
+             ios:Page.UseSafeArea="True"
+             x:Class="FirstMauiApp.MainPage">
+
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          RowDefinitions="*,Auto"
+          RowSpacing="0">
+
+
+        <RefreshView Grid.ColumnSpan="2"
+                     Command="{Binding GetPlantsCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView BackgroundColor="Transparent"
+                            ItemsSource="{Binding Plants}"
+                            SelectionMode="None">
+
+                <CollectionView.Footer>
+                    <VerticalStackLayout BackgroundColor="{StaticResource Primary}" Padding="5">
+                        <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" />
+                    </VerticalStackLayout>
+                </CollectionView.Footer>
+
+                <CollectionView.EmptyView>
+                    <StackLayout VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 WidthRequest="200"
+                                 HeightRequest="200">
+                        <Image Source="logo.png"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               Aspect="AspectFill"/>
+
+                    </StackLayout>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Plant">
+                        <Grid Padding="10">
+                            <Frame HeightRequest="125"
+                                   Padding="0"
+                                   Style="{StaticResource CardView}">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlantsViewModel}}, Path=GoToDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
+                                <Grid Padding="0"
+                                      ColumnDefinitions="125, *">
+                                
+                                    <Image Aspect="AspectFill"
+                                       Source="{Binding Picture}"
+                                       WidthRequest="125"
+                                       HeightRequest="125"/>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10"
+                                                         VerticalOptions="Center">
+                                        <Label Text="{Binding Name}"
+                                               Style="{StaticResource LargeLabel}"/>
+                                        <Label Text="{Binding Location}"
+                                               Style="{StaticResource BaseLabel}"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            
+            </CollectionView>
+        </RefreshView>
+
+        <Button Text="GET PLANTS"
+                Style="{StaticResource ButtonOutline}"
+                Command="{Binding GetPlantsCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Margin="8"/>
+
+        <Button Text="FIND CLOSEST"
+                Style="{StaticResource ButtonOutline}"
+                Command="{Binding GetClosestPlantCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="8"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+
+    </Grid>
+</ContentPage>
