@@ -24,7 +24,7 @@
 
                 <CollectionView.Footer>
                     <VerticalStackLayout BackgroundColor="{StaticResource Primary}" Padding="5">
-                        <Label Text="@2023 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" />
+                        <Label Text="@2024 Tiwaiwaka" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" />
                     </VerticalStackLayout>
                 </CollectionView.Footer>
 
