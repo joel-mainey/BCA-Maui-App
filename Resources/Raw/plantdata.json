@@ -127,7 +127,7 @@
     "Longitude": 176.233733,
     "Narrative": "Endemic. Our tallest tree reaching an impressive 60m in height. At one time was very common in lowland swamp forest, but clearance for farmland and logging now means we have only small pockets remaining. The timber of kahikatea was used for butter boxes. The kahikatea in these wetlands were originally planted amongst a ‘nursery crop’ of manuka.",
     "Location": "Wetlands",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Dacrycarpus%20dacrydioides.jpg?raw=true",
     "Name": "Kahikatea, White pine"
   },
 
@@ -154,7 +154,7 @@
     "Longitude": 0.0,
     "Narrative": "Endemic. With its large glossy leaves, kohekohe looks very tropical, and is in fact a member of the mahogany family. They have an unusual flowering habit whereas they flower directly from the trunk. This is known as ‘cauliflorus’. Again, used widely in Rongoā and is used for a wide range of illnesses including coughs, sore throats and boils. Trees are very susceptible to possum browse.",
     "Location": "Valley",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Didymocheton%20spectabilis.jpg?raw=true",
     "Name": "Kohekohe, NZ mahogany"
   },
   {
@@ -180,7 +180,7 @@
     "Longitude": 176.233997,
     "Narrative": "Endemic. A striking coastal tree with large soft, leaves. It is also our lightest wood and was traditionally used for fishing floats, and today is prized by surfboard builders. Large white flowers give way to prickly seed pods that attach themselves to animals for dispersal. Quite a short lived tree.",
     "Location": "Hilltop",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Entelea%20arborescens.jpg?raw=true",
     "Name": "Whau"
   },
   {
@@ -206,7 +206,7 @@
     "Longitude": 0.0,
     "Narrative": "Endemic. An attractive, but little known tree form the same family as kahikatea and rimu. Tends to occupy higher altitudes and favours poorly drained heathland and frost flats and also dry, stony tussock grassland.",
     "Location": "Hilltop",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Halocarpus%20bidwillii.jpg?raw=true",
     "Name": "Bog pine"
   },
   {
@@ -245,7 +245,7 @@
     "Longitude": 0.0,
     "Narrative": "Endemic. An attractive, slow-growing evergreen conifer with striking red bark preferring to grow at altitude.",
     "Location": "Hilltop",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Libocedrus%20bidwillii%20(CNI%2C%20Desert%20Road).JPG?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Libocedrus%20bidwelii.jpg?raw=true",
     "Name": "Pāhautea, Kaikawaka, NZ cedar"
   },
   {
@@ -349,7 +349,7 @@
     "Longitude": 176.233742,
     "Narrative": "An endemic member of the conifer family growing throughout both islands. Miro is one of our forest giants and can live for many years. The red-pink plum like fruit make them unlike any other conifer. Widely used in Māori culture as a food source (berries and as a place to snare kerurū) as well as a source of Rongoā.",
     "Location": "Valley",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Pectinopytis%20ferruginea.jpg?raw=true",
     "Name": "Miro, Brown pine"
   },
   {
@@ -544,7 +544,7 @@
     "Longitude": 0.0,
     "Narrative": "An iconic native plant that can grow up to 3m in height. Growing from the coast all the way up to montane areas, they generally favours  growing  in wet areas. Harakeke has a multitude of uses. The fibre is used extensively in weaving, the nectar from the red flowers makes a good sweetener, and the gum is used to treat burns, cuts and boils.",
     "Location": "Wetlands",
-    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/image-coming-soon.png?raw=true",
+    "Picture": "https://github.com/joel-mainey/bca-firebase/blob/main/public/images/Phormium%20tenax.jpg?raw=true",
     "Name": "Harakeke, Kōrari, Flax"
   }
 ] 
